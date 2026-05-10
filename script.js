@@ -12,7 +12,6 @@ function get() {
 }
 
 // get();
-
 function render(arr, parent) {
   parent.innerHTML = arr
     .map((element) => {
@@ -37,7 +36,6 @@ function click(e) {
 
 
 // newww
-
 const rangeInp = document.querySelector('input')
 const text = document.querySelector('p')
 
